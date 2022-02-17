@@ -10,6 +10,7 @@ data class Account(val iban: String, var balance: Double = 0.0) {
 
     fun withdraw(amount: Double) {}
 
-    fun transfer(receiver: Account, amount: Double) {}
+    fun transfer(receiver: Account, amount: Double){
+    }
 
 }
